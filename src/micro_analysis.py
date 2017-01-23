@@ -1,4 +1,5 @@
 
+from ctypes import 
 
 
 
@@ -6,7 +7,7 @@ class MicroAnalysis:
     """
     Class to solve microcorruption ctf problems by 
     emulating the functionality of the MSP430 pseudo architecture
-    and using brute force techniques to find password unlocks.
+    and using symbolic analysis/fuzzing techniques.
     """
     def __init__(self):
         self.pc = 0x4400  
